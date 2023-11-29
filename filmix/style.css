@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+*{
+    margin: 0;
+}
+body{
+    
+    font-family: 'Electrolize', sans-serif;
+}
+/*! navbar start */
+.navbar{
+    background-color: black;
+    height: 60px;
+    color:white;
+    position: sticky;
+    top: 0;
+
+}
+
+.navbar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding:0 50px ;
+}
+
+.logo{
+    color: rgb(218, 18, 18);
+    font-size: 30px;
+}
+
+.menu-list{
+    display: flex;
+    list-style: none;
+    column-gap:30px;
+    
+}
+.menu-list-item{
+    cursor: pointer;
+}
+
+.menu-list-item.active{
+    color:rgb(218, 18, 18);
+}
+.menu-list-item:hover{
+    color:rgb(218, 18, 18);
+   
+}
+
+.profile-container{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.profile-text-container{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    line-height: 1px;
+}
+
+.profile-pic{
+    width: 25px;
+    object-fit: cover;
+}
+
+.toggle{
+    width: 40px;
+    background-color: white;
+    position: relative;
+    height: 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.toggle-icon{
+    color: goldenrod;
+}
+
+.toggle-ball{
+    width: 18px;
+    height: 18px;
+    background-color:black;
+    border-radius: 50%;
+    cursor: pointer;
+    position:absolute;
+    right: 1px;
+}
+
+/*! navbar end */
+
+
+
+/*! sidebar start */
+.sidebar{
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:60px;
+    row-gap: 40px;
+    position: fixed;
+    top: 0;
+}
+
+.sidebar i{
+    color: white;
+    font-size:20px;
+    cursor: pointer;
+}
+
+/*! sidebar end */
+
+
+/* ! content start */
+.content-wrapper{
+    margin-left: 50px;
+}
+.featured-content{
+    background:url("img/img/spiderman.jpg");
+    padding: 50px;
+    height: calc(100vh - 160px);
+    background-size: 100% 100%;
+}
+
+.featured-title{
+    width: 400px;
+}
+
+.featured-desc{
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    margin: 30px 0;
+}
+
+.featured-buttons{
+    display: flex;
+    column-gap: 20px;
+}
+
+.featured-buttons button{
+    padding: 10px 25px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    column-gap: 10px;
+    font-size: 16px;
+    
+}
+
+.featured-buttons .info-button{
+    background-color: rgb(142, 135, 142,0.5);
+    color: white;
+}
+
+
+
+/* ! content end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
